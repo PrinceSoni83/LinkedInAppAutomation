@@ -52,6 +52,7 @@ public class SmokeTest {
 
         // verify the CarouselText for 3 moving banners
         Assert.assertTrue(validateCarouselText("Find and land your next job"));
+        Assert.assertTrue(validateCarouselText("Build your network on the go"));
         Assert.assertTrue(validateCarouselText("Stay ahead with curated content for your career"));
 
         // Login with correct credential
